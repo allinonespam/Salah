@@ -12,7 +12,7 @@ import pytz
 
 # ------------- CONFIG -------------
 
-TOKEN = "YOUR_BOT_TOKEN_HERE"
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 # Default values for you (can be changed with /set_location)
 DEFAULT_CITY = "Abu Dhabi"
